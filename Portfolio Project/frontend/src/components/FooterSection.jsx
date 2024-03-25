@@ -1,7 +1,7 @@
 export const FooterSection = () => {
     return (
         <>
-            <div className="bg-black flex flex-col gap-y-2 pt-5 text-white  mt-10 text-sm md:text-md">
+            <div className="bg-black flex flex-col gap-y-2 pt-5 pl-5 md:pl-2 text-white  mt-10 text-sm md:text-md">
                 
                     <div>soumya.ray2472@gmail.com </div>
                     <div>isoumya.ray@gmail.com</div>
