@@ -3,10 +3,10 @@ export const ConnectWithMe = () => {
     const [userName, changeUserName] = useState('');
     const [userMail, changeUserMail] = useState('');
     const [userContact, changeUserContact] = useState('');
-    function detailSubmission(e) {
+    const detailSubmission = async (e) => {
         e.preventDefault();
         console.log(userName + "Added to the mailing list");
-        const response =  fetch('http://localhost:3000/connect', {
+        const response = await fetch('http://localhost:3000/connect', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -18,7 +18,7 @@ export const ConnectWithMe = () => {
             })
         });
 
-        const data = response.json();
+        const data = await response.json();
         if(data){
             alert("Details Added to the mailing list");
         }
