@@ -6,7 +6,7 @@ export const ConnectWithMe = () => {
     const detailSubmission = async (e) => {
         e.preventDefault();
         console.log(userName + "Added to the mailing list");
-        const response = await fetch('http://localhost:3000/connect', {
+        const response = await fetch('https://test-website-1mjm.onrender.com/connect', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
