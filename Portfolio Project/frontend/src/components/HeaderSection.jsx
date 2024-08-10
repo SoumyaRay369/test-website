@@ -1,4 +1,4 @@
-import topImage from '../assets/day_in_life.jpg'
+import topImage from '../assets/Landing Image.jpeg'
 
 export const HeaderSection = () => {
     console.log("Header section is rendered")
