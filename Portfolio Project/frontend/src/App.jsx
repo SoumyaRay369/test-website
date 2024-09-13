@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="h-screen overflow-y-auto ">
+      <div className="h-screen overflow-y-auto bg-gray-200 ">
           <HeaderSection />
           <AboutSection></AboutSection>
           <FieldOfExpertise></FieldOfExpertise>
