@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        playfair: ['Playfair Display', 'serif'],
+        roboto: ['Roboto Slab', 'sans-serif'],
+        garamond: ['EB Garamond', 'serif'],
+      }
+    },
   },
   plugins: [],
 }

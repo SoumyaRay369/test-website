@@ -15,76 +15,76 @@ import romi from '../assets/ROMI_Viz.png';
 export const Analytics = () => {
     return (
         <>
-            <div className="mt-5 text-center text-xl">Skills</div>
+            <div className="mt-5 text-center text-3xl font-playfair">Skills</div>
             <div className="mt-4 mr-10 ml-10 text-sm md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
                     <div className="flex flex-col items-center">
                         <div><img src={sqlLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
-                        <div>SQL</div>
+                        <div className="font-garamond">SQL</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={tableauLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
-                        <div>Tableau</div>
+                        <div className="font-garamond">Tableau</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={matplotlibLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
-                        <div>Matplotlib</div>
+                        <div className="font-garamond">Matplotlib</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={seabornLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
-                        <div>Seaborn</div>
+                        <div className="font-garamond">Seaborn</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={numpyLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
-                        <div>Numpy</div>
+                        <div className="font-garamond">Numpy</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={pandasLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
-                        <div>Pandas</div>
+                        <div className="font-garamond">Pandas</div>
                     </div>
                 </div>
             </div>
 
-            <div className="mt-10 text-center text-xl">Certifications</div>
+            <div className="mt-10 text-center text-3xl font-playfair">Certifications</div>
             <div className="mt-4 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
                     <div className="flex flex-col items-center">
                         <div><img src={googleCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
-                        <div>Google Data Analytics Certificate</div>
+                        <div className="font-garamond">Google Data Analytics Certificate</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={tableauCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
-                        <div>Udemy Tableau Certificate</div>
+                        <div className="font-garamond">Udemy Tableau Certificate</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={pythonCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
-                        <div>Udemy Python Certificate</div>
+                        <div className="font-garamond">Udemy Python Certificate</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={sqlCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
-                        <div>Udemy SQL Certificate</div>
+                        <div className="font-garamond">Udemy SQL Certificate</div>
                     </div>
                 </div>
             </div>
 
-            <div className="mt-10 text-center text-xl">Projects</div>
+            <div className="mt-10 text-center text-3xl font-playfair">Projects</div>
             <div className="mt-4 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-4">
                     <div className="flex flex-col items-center">
                         <div><img src={brazilianecommerce} alt="" className='w-40 md:w-48 h-14 md:h-32' /></div>
-                        <div>Tableau Viz 1</div>
+                        <div className="font-garamond">Tableau Viz 1</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={customerSegementation} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
-                        <div>Tableau Viz 2</div>
+                        <div className="font-garamond">Tableau Viz 2</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={netflix} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
-                        <div>Tableau Viz 3</div>
+                        <div className="font-garamond">Tableau Viz 3</div>
                     </div>
                     <div className="flex flex-col items-center">
                         <div><img src={romi} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
-                        <div>Tableau Viz 4</div>
+                        <div className="font-garamond">Tableau Viz 4</div>
                     </div>
                 </div>
             </div>

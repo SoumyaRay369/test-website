@@ -8,11 +8,14 @@ function App() {
 
   return (
     <>
-      <HeaderSection />
-      <AboutSection></AboutSection>
-      <FieldOfExpertise></FieldOfExpertise>
-      <ConnectWithMe></ConnectWithMe>
-      <FooterSection></FooterSection>
+      <div className="h-screen overflow-y-auto ">
+          <HeaderSection />
+          <AboutSection></AboutSection>
+          <FieldOfExpertise></FieldOfExpertise>
+          <ConnectWithMe></ConnectWithMe>
+          <FooterSection></FooterSection>
+      </div>
+   
     </>
   )
 }
