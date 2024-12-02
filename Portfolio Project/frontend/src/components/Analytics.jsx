@@ -15,7 +15,7 @@ import romi from '../assets/ROMI_Viz.png';
 export const Analytics = () => {
     return (
         <>
-            <div className="mt-5 text-center text-3xl font-playfair">Skills</div>
+            <div className="mt-5 text-center text-3xl font-playfair">Data Analytics Skills</div>
             <div className="mt-4 mr-10 ml-10 text-sm md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
                     <div className="flex flex-col items-center">

@@ -16,8 +16,8 @@ export const FieldOfExpertise = () => {
         <>
             <div className='mt-10 flex justify-center gap-x-5'>
                 
-                <button onClick={() => setSelectedField('sde')} className='bg-blue-400 hover:bg-blue-500 rounded-xl p-3 text-white'>Software Engineering</button>
-                <button onClick={() => setSelectedField('analytics')} className='bg-blue-400 hover:bg-blue-500 rounded-xl p-2 text-white'>Data Analytics</button>
+                <button onClick={() => setSelectedField('sde')} className='bg-blue-400 hover:bg-blue-500 font-garamond rounded-xl p-3 text-white font-medium'>Software Engineering</button>
+                <button onClick={() => setSelectedField('analytics')} className='bg-blue-400 hover:bg-blue-500 font-garamond rounded-xl p-2 text-white font-medium'>Data Analytics</button>
 
             </div>
             {renderField()}

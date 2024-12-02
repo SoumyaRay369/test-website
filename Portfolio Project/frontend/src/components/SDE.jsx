@@ -13,8 +13,8 @@ import newsletterSignin from '../assets/newsletter_signin.png';
 export const SDE = () => {
     return (
         <>
-            <div className="mt-10 text-center text-3xl font-playfair">Skills</div>
-            <div className="mt-4 mr-10 ml-10 text-xs md:text-lg">
+            <div className="mt-10 text-center text-3xl font-playfair">Software Engineering Skills</div>
+            <div className="mt-8 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
                     <div className="flex flex-col items-center flex-shrink-0">
                         <div><img src={gitLogo} alt="" className='w-28 md:w-36 h-14 md:h-32' /></div>
@@ -44,7 +44,7 @@ export const SDE = () => {
             </div>
 
             <div className="mt-10 text-center text-3xl font-playfair">Projects</div>
-            <div className="mt-4 mr-10 ml-10 text-xs md:text-lg">
+            <div className="mt-8 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-4">
                     <div className="flex flex-col items-center">
                         <div><img src={newsletterSignin} alt="" /></div>
@@ -59,7 +59,7 @@ export const SDE = () => {
 
 
             <div className="mt-10 text-center text-3xl font-playfair">Certifications</div>
-            <div className="mt-4 mr-10 ml-10 text-xs md:text-lg">
+            <div className="mt-8 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
                     <div className="flex flex-col items-center">
                         <div><img src={googleCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
