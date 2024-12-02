@@ -33,7 +33,7 @@ export const ConnectWithMe = () => {
                     <input type="text" value={userMail} onChange={(e) => changeUserMail(e.target.value)} placeholder="Email Id" className="border-2 border-black rounded-md p-3 focus:border-blue-500 w-full " />
                     <input type="text" value={userContact} onChange={(e) => changeUserContact(e.target.value)} placeholder="Contact Number" className="border-2 border-black rounded-md p-3 focus:border-blue-500 w-full  " />
                     <div className="mt-5 flex justify-center items-center  ">
-                        <button type="submit"  className="bg-blue-400 rounded-md p-2 text-white text-sm font-roboto">Submit</button>
+                        <button type="submit"  className="bg-blue-400 rounded-md p-2 text-white text-sm font-garamond">Submit</button>
                     </div>
                 </form>
             </div>
