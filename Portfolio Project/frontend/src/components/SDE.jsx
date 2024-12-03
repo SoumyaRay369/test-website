@@ -10,6 +10,7 @@ import sqlCertificate from '../assets/udemy_sql.png';
 import googleCertificate from '../assets/google_analytics.png';
 import dukaanappClone from '../assets/dukaan_app_clone.png';
 import newsletterSignin from '../assets/newsletter_signin.png';
+import videoChatApplication from '../assets/videoChatApplication.jpg';
 export const SDE = () => {
     return (
         <>
@@ -44,18 +45,25 @@ export const SDE = () => {
             </div>
 
             <div className="mt-10 text-center text-3xl font-playfair">Projects</div>
-            <div className="mt-8 mr-10 ml-10 text-xs md:text-lg">
-                <div className="flex justify-between overflow-x-auto gap-x-4">
-                    <div className="flex flex-col items-center">
-                        <div><img src={newsletterSignin} alt="" className='rounded-xl'/></div>
-                        <div className="font-garamond">Newsletter Signin</div>
+            <div className="mt-8 mr-10 ml-10 text-xs md:text-lg ">
+                <div className="flex gap-x-8 justify-between overflow-x-auto">
+                    <div className="flex flex-col items-center flex-shrink-0">
+                        <div><img src={videoChatApplication} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48 object-cover" /></div>
+                        <div className="font-garamond">Video Chat Application</div>
                     </div>
-                    <div className="flex flex-col items-center">
-                        <div><img src={dukaanappClone} alt="" className='rounded-xl'/></div>
+
+                    <div className="flex flex-col items-center flex-shrink-0">
+                        <div><img src={dukaanappClone} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48 object-cover" /></div>
                         <div className="font-garamond">Dukaan App Clone</div>
+                    </div>
+
+                    <div className="flex flex-col items-center flex-shrink-0">
+                        <div><img src={newsletterSignin} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48 object-cover" /></div>
+                        <div className="font-garamond">Newsletter Signin</div>
                     </div>
                 </div>
             </div>
+
 
 
             <div className="mt-10 text-center text-3xl font-playfair">Certifications</div>
@@ -80,7 +88,7 @@ export const SDE = () => {
                 </div>
             </div>
 
-            
+
         </>
     )
 }
