@@ -47,11 +47,11 @@ export const SDE = () => {
             <div className="mt-8 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-4">
                     <div className="flex flex-col items-center">
-                        <div><img src={newsletterSignin} alt="" /></div>
+                        <div><img src={newsletterSignin} alt="" className='rounded-xl'/></div>
                         <div className="font-garamond">Newsletter Signin</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={dukaanappClone} alt="" /></div>
+                        <div><img src={dukaanappClone} alt="" className='rounded-xl'/></div>
                         <div className="font-garamond">Dukaan App Clone</div>
                     </div>
                 </div>
