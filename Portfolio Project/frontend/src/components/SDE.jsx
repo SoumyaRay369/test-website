@@ -48,17 +48,17 @@ export const SDE = () => {
             <div className="mt-8 mr-10 ml-10 text-xs md:text-lg ">
                 <div className="flex gap-x-8 justify-between overflow-x-auto">
                     <div className="flex flex-col items-center flex-shrink-0">
-                        <div><img src={videoChatApplication} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48 object-cover" /></div>
+                        <div><img src={videoChatApplication} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" /></div>
                         <div className="font-garamond">Video Chat Application</div>
                     </div>
 
                     <div className="flex flex-col items-center flex-shrink-0">
-                        <div><img src={dukaanappClone} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48 object-cover" /></div>
+                        <div><img src={dukaanappClone} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" /></div>
                         <div className="font-garamond">Dukaan App Clone</div>
                     </div>
 
                     <div className="flex flex-col items-center flex-shrink-0">
-                        <div><img src={newsletterSignin} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48 object-cover" /></div>
+                        <div><img src={newsletterSignin} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" /></div>
                         <div className="font-garamond">Newsletter Signin</div>
                     </div>
                 </div>
@@ -69,22 +69,28 @@ export const SDE = () => {
             <div className="mt-10 text-center text-3xl font-playfair">Certifications</div>
             <div className="mt-8 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
-                    <div className="flex flex-col items-center">
-                        <div><img src={googleCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+                    
+                    <div className="flex flex-col items-center flex-shrink-0 ">
+                        <div><img src={googleCertificate} alt="" className='rounded-md w-50 h-20 ' /></div>
                         <div className="font-garamond">Google Data Analytics Certificate</div>
                     </div>
-                    <div className="flex flex-col items-center">
-                        <div><img src={tableauCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+
+                    <div className="flex flex-col items-center flex-shrink-0">
+                        <div><img src={tableauCertificate} alt="" className='rounded-md w-50 h-20 ' /></div>
                         <div className="font-garamond">Udemy Tableau Certificate</div>
                     </div>
-                    <div className="flex flex-col items-center">
-                        <div><img src={pythonCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+
+                    <div className="flex flex-col items-center flex-shrink-0">
+                        <div><img src={pythonCertificate} alt="" className='rounded-md w-50 h-20 ' /></div>
                         <div className="font-garamond">Udemy Python Certificate</div>
                     </div>
-                    <div className="flex flex-col items-center">
-                        <div><img src={sqlCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+
+                    <div className="flex flex-col items-center flex-shrink-0">
+                        <div><img src={sqlCertificate} alt="" className='rounded-md w-50 h-20 ' /></div>
                         <div className="font-garamond">Udemy SQL Certificate</div>
                     </div>
+
+
                 </div>
             </div>
 
