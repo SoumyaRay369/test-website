@@ -1,6 +1,7 @@
 import gitLogo from '../assets/git_logo.png';
 import javascriptLogo from '../assets/JavaScript-logo.png';
 import typescriptLogo from '../assets/typescript_logo.png';
+import reactjsLogo from '../assets/reactjs-logo.webp';
 import webrtcLogo from '../assets/webrtc-logo-.png';
 import mongodbLogo from '../assets/mongodb_logo.png';
 import nodejsLogo from '../assets/node_js.png';
@@ -31,6 +32,10 @@ export const SDE = () => {
                     <div className="flex flex-col items-center flex-shrink-0">
                         <div><img src={typescriptLogo} alt="" className='w-20 md:w-36 h-20 md:h-32 rounded-md' /></div>
                         <div className="font-garamond">TypeScript</div>
+                    </div>
+                    <div className="flex flex-col items-center flex-shrink-0">
+                        <div><img src={reactjsLogo} alt="" className='w-20 md:w-36 h-20 md:h-32 rounded-md' /></div>
+                        <div className="font-garamond">React.js</div>
                     </div>
                     <div className="flex flex-col items-center flex-shrink-0">
                         <div><img src={webrtcLogo} alt="" className='w-20 md:w-36 h-20 md:h-32 rounded-md' /></div>
