@@ -13,6 +13,7 @@ import dukaanappClone from '../assets/dukaan_app_clone.png';
 import newsletterSignin from '../assets/newsletter_signin.png';
 import videoChatApplication from '../assets/videoChatApplication.jpg';
 import googleAIEssentials from '../assets/google_ai_essentials.jpg';
+import oopCertificate from '../assets/OOP_Certificate_Educative.png';
 export const SDE = () => {
     return (
         <>
@@ -80,6 +81,11 @@ export const SDE = () => {
             <div className="mt-8 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
                     
+                    <div className="flex flex-col items-center flex-shrink-0 ">
+                        <div><img src={oopCertificate} alt="" className='rounded-md w-50 md:w-60 h-20 md:h-40 ' /></div>
+                        <div className="font-garamond">OOP Certificate - Educative</div>
+                    </div>
+
                     <div className="flex flex-col items-center flex-shrink-0 ">
                         <div><img src={googleAIEssentials} alt="" className='rounded-md w-50 md:w-60 h-20 md:h-40 ' /></div>
                         <div className="font-garamond">Google AI Essentials Certificate</div>
