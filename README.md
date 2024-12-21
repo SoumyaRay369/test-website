@@ -1,2 +1,9 @@
-This is an attempt to make a landing page for my website in React and then connect it to my custom domain https://www.soumyaray.net
+## Welcome to my Website
+---
+** Visit my website **:[soumyaray.net](https://www.soumyaray.net)
+### What you will get:
+- Software Engineering Skills
+- Data Analytics Skills
+- A way to connect with me
+
 
