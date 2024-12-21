@@ -21,7 +21,7 @@ export const SDE = () => {
             <div className="mt-8 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
 
-                    
+
                     <div className="flex flex-col items-center flex-shrink-0">
                         <div><img src={gitLogo} alt="" className='w-20 md:w-36 h-20 md:h-32 rounded-md' /></div>
                         <div className="font-garamond">Git</div>
@@ -59,12 +59,20 @@ export const SDE = () => {
             <div className="mt-8 mr-10 ml-10 text-xs md:text-lg ">
                 <div className="flex gap-x-8 justify-between overflow-x-auto">
                     <div className="flex flex-col items-center flex-shrink-0">
-                        <div><img src={videoChatApplication} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" /></div>
+                        <div>
+                            <a href="https://incogni-chat.vercel.app/" target='_blank'>
+                                <img src={videoChatApplication} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" />
+                            </a>
+                        </div>
                         <div className="font-garamond">Video Chat Application</div>
                     </div>
 
                     <div className="flex flex-col items-center flex-shrink-0">
-                        <div><img src={dukaanappClone} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" /></div>
+                        <div>
+                            <a href="https://strong-maamoul-508309.netlify.app/" target='_blank'>
+                                <img src={dukaanappClone} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" />
+                            </a>
+                        </div>
                         <div className="font-garamond">Dukaan App Clone</div>
                     </div>
 
@@ -80,7 +88,7 @@ export const SDE = () => {
             <div className="mt-10 text-center text-3xl font-playfair">Certifications</div>
             <div className="mt-8 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
-                    
+
                     <div className="flex flex-col items-center flex-shrink-0 ">
                         <div><img src={oopCertificate} alt="" className='rounded-md w-50 md:w-60 h-20 md:h-40 ' /></div>
                         <div className="font-garamond">OOP Certificate - Educative</div>
