@@ -1,17 +1,4 @@
-import matplotlibLogo from '../assets/matplotlib_logo.png';
-import seabornLogo from '../assets/seaborn_logo.png';
-import numpyLogo from '../assets/numpy_logo.png';
-import pandasLogo from '../assets/pandas_logo.png';
-import sqlLogo from '../assets/sql_logo.jpg';
-import tableauLogo from '../assets/tableau_logo.jpeg';
-import tableauCertificate from '../assets/udemy_tableau.png';
-import pythonCertificate from '../assets/udemy_python.png';
-import sqlCertificate from '../assets/udemy_sql.png';
-import googleCertificate from '../assets/google_analytics.png';
-import brazilianecommerce from '../assets/Brazilian_E_Commerce.png';
-import customerSegementation from '../assets/Customer_Segmentation_Viz.png';
-import netflix from '../assets/Netflix_Viz.png';
-import romi from '../assets/ROMI_Viz.png';
+
 export const Analytics = () => {
     return (
         <>
@@ -19,27 +6,27 @@ export const Analytics = () => {
             <div className="mt-4 mr-10 ml-10 text-sm md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
                     <div className="flex flex-col items-center">
-                        <div><img src={sqlLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/sql_logo.jpg" className='w-40 md:w-36 h-14 md:h-32'></img></div>
                         <div className="font-garamond">SQL</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={tableauLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/tableau_logo.jpeg" className='w-40 md:w-36 h-14 md:h-32'></img></div>
                         <div className="font-garamond">Tableau</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={matplotlibLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/matplotlib_logo.png" className='w-40 md:w-36 h-14 md:h-32'></img></div>
                         <div className="font-garamond">Matplotlib</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={seabornLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/seaborn_logo.png" className='w-40 md:w-36 h-14 md:h-32'></img></div>
                         <div className="font-garamond">Seaborn</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={numpyLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/numpy_logo.png" className='w-40 md:w-36 h-14 md:h-32'></img></div>
                         <div className="font-garamond">Numpy</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={pandasLogo} className='w-40 md:w-36 h-14 md:h-32'></img></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/pandas_logo.png" className='w-40 md:w-36 h-14 md:h-32'></img></div>
                         <div className="font-garamond">Pandas</div>
                     </div>
                 </div>
@@ -49,19 +36,19 @@ export const Analytics = () => {
             <div className="mt-4 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-8">
                     <div className="flex flex-col items-center">
-                        <div><img src={googleCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/google_analytics.png" alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
                         <div className="font-garamond">Google Data Analytics Certificate</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={tableauCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/udemy_tableau.png" alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
                         <div className="font-garamond">Udemy Tableau Certificate</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={pythonCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/udemy_python.png" alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
                         <div className="font-garamond">Udemy Python Certificate</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={sqlCertificate} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/udemy_sql.png" alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
                         <div className="font-garamond">Udemy SQL Certificate</div>
                     </div>
                 </div>
@@ -71,19 +58,19 @@ export const Analytics = () => {
             <div className="mt-4 mr-10 ml-10 text-xs md:text-lg">
                 <div className="flex justify-between overflow-x-auto gap-x-4">
                     <div className="flex flex-col items-center">
-                        <div><img src={brazilianecommerce} alt="" className='w-40 md:w-48 h-14 md:h-32' /></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/Brazilian_E_Commerce.png" alt="" className='w-40 md:w-48 h-14 md:h-32' /></div>
                         <div className="font-garamond">Tableau Viz 1</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={customerSegementation} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/Customer_Segmentation_Viz.png" alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
                         <div className="font-garamond">Tableau Viz 2</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={netflix} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/Netflix_Viz.png" alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
                         <div className="font-garamond">Tableau Viz 3</div>
                     </div>
                     <div className="flex flex-col items-center">
-                        <div><img src={romi} alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
+                        <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/ROMI_Viz.png" alt="" className='w-40 md:w-36 h-14 md:h-32' /></div>
                         <div className="font-garamond">Tableau Viz 4</div>
                     </div>
                 </div>

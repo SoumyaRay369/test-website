@@ -10,7 +10,7 @@ const SDEProjects = () => {
                                 <div className="flex flex-col items-center flex-shrink-0">
                                     <div>
                                         <a href="https://incogni-chat.vercel.app/" target='_blank'>
-                                            <img src={videoChatApplication} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" />
+                                            <img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/videoChatApplication.jpg" alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" />
                                         </a>
                                     </div>
                                     <div className="font-garamond">Video Chat Application</div>
@@ -19,14 +19,14 @@ const SDEProjects = () => {
                                 <div className="flex flex-col items-center flex-shrink-0">
                                     <div>
                                         <a href="https://strong-maamoul-508309.netlify.app/" target='_blank'>
-                                            <img src={dukaanappClone} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" />
+                                            <img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/dukaan_app_clone.png" alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" />
                                         </a>
                                     </div>
                                     <div className="font-garamond">Dukaan App Clone</div>
                                 </div>
             
                                 <div className="flex flex-col items-center flex-shrink-0">
-                                    <div><img src={newsletterSignin} alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" /></div>
+                                    <div><img src="https://my-first-video-storage.s3.ap-south-1.amazonaws.com/assets/newsletter_signin.png" alt="" className="rounded-xl w-60 md:w-80 h-40 md:h-48" /></div>
                                     <div className="font-garamond">Newsletter Signin</div>
                                 </div>
                             </div>
